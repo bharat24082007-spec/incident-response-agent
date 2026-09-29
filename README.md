@@ -2,6 +2,8 @@
 
 This project is an on-call incident-response assistant. An engineer enters a production alert, and the agent searches Hindsight for similar past incidents before recommending a likely cause and fix. Engineers can record whether the suggestion worked. That feedback is saved to memory and can inform later responses.
 
+**Memory is the core of this project** — the comparison view exists specifically to make Hindsight's effect on the agent's answers visible.
+
 ## Architecture
 
 ```text
